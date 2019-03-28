@@ -1,0 +1,85 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.products-catalog{
+    text-align: center;
+}
+
+.product-image-container{
+    position: relative;
+}
+
+.product-item{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #b00e23;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.sale-sticker{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #fe0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 900;
+    color: #5f0000;
+    top: -30px;
+    left: -30px;
+}
+
+.sticker-text{
+    position: absolute;
+    top: 42px;
+    left: 33px;
+    transform: rotate(-45deg);
+}
+
+img.product-image{
+    width: 100%
+}
+
+.product-meta{
+    margin: 10px;
+}
+
+h2.product-title{
+    color: #5f0000;
+}
+
+.product-price .sale{
+    color: #b00e23;
+    font-size: 28px;
+    font-weight: 900;
+}
+.product-price .price{
+    font-size: 28px;
+    font-weight: 900;
+}
+.product-price .old-price{
+    text-decoration: line-through;
+}
+
+button.product-add-to-cart{
+    background-color: #5f0000;
+    border: 1px solid #5f0000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+
+button.product-add-to-cart:hover{
+    background-color: #fff;
+    color: #5f0000;
+}
